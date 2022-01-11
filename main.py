@@ -9,7 +9,7 @@ print(sys.version)
 print(sys.executable)
 
 r = requests.get('https://coreyms.com')
-print(r.status_code)
+print(f'status code = {r.status_code}')
 
 
 def main(myvar: int):
